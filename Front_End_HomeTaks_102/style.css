@@ -1,0 +1,25 @@
+
+.container {
+    position: relative;
+  }
+  .text-block {
+    position: absolute;
+    bottom: 50%;
+    margin-left: 40%;
+    background-color: rgba(4, 42, 65, 0.801);
+    padding-left: 30px;
+    padding-right: 40px;
+  }
+  .text-block1 {
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    background-color: rgba(0, 0, 0, 0.808);
+    color: white;
+    padding-left: 30px;
+    padding-right: 40px;
+  }
+  figure {
+    display:inline-block;
+    border-style: groove;
+}
