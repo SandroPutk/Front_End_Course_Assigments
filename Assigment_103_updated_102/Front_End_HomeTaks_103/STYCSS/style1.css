@@ -1,0 +1,17 @@
+/* style for registration button*/
+.reg {
+  margin-top: 10%;
+  margin-left: 40%;
+}
+
+/* style for registration button*/
+.RegBT {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 6%;
+  opacity: 0.9;
+}

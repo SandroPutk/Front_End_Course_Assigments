@@ -1,0 +1,71 @@
+/* style for banner img */
+.container {
+  position: relative;
+}
+
+/* style for registration click form*/
+.text-block {
+  position: absolute;
+  bottom: 50%;
+  margin-left: 40%;
+  background-color: rgba(4, 42, 65, 0.801);
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+/* style for text on the banner img*/
+.text-block1 {
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+  background-color: rgba(0, 0, 0, 0.808);
+  color: white;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+/* style for imgs*/
+figure {
+  display: inline-block;
+  border-style: groove;
+}
+
+/* style for informatio text*/
+.info {
+  text-align: center;
+}
+
+/* style for user img without div*/
+.user {
+  border-radius: 90%;
+  border-style: dotted;
+}
+
+/* style for user img with div*/
+.user1 {
+  text-align: center;
+}
+
+/* style for Contact phone/aboutlocation imgs*/
+.contatc {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+}
+
+/* style for text under contatc imgs*/
+.text {
+  font-size: 10px;
+}
+
+/* style for contact img div*/
+.conttt {
+  display: flex;
+  border-style: none;
+}
+
+/* style for phone/aboutlocation imgs*/
+.image {
+  border-style: inset;
+}
