@@ -1,0 +1,33 @@
+.col-12 {
+    top: 50px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 86px;
+    line-height: 88px;
+    color: #2F2E41;
+}
+
+.text2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #9893A3;
+    width: 489px;
+    height: 102px;
+}
+
+.card:hover {
+    transform: scale(1.02, 1.02);
+    -webkit-transform: scale(1.02, 1.02);
+    backface-visibility: hidden;
+    will-change: transform;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .75) !important;
+}
+
+.card:hover .btn-outline-primary {
+    color: white;
+    background: #007bff;
+}
