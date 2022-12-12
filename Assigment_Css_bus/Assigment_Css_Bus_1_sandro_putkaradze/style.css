@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    overflow: hidden;
+    height: 100vh;
+    background: linear-gradient(180deg, #a0c4db, #1b415c, #29516c, #6e8ea5, #7cadd0, #7cadd0, #7cadd0, #7cadd0, #6e8ea5, #3a6583, #1a4461, #09283d);
+    background-size: 2400% 2400%;
+    animation: dayNight 60s ease infinite;
+}
+
+/* #right-wheel{
+    animation: wheel 5s ease;
+    transform-origin: center;
+    transform-box: fill-box;
+} */
+#right-wheel,
+#left-wheel {
+    animation: wheel 5s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#vector {
+    animation: vector1 2s ease infinite;
+}
+
+@keyframes wheel {
+    from {
+        transform: rotateZ(0deg);
+
+    }
+
+    to {
+        transform: rotateZ(1000deg);
+    }
+}
+
+@keyframes vector1 {
+    0% {
+        transform: rotateX(0deg);
+    }
+
+    50% {
+        transform: rotateX(7deg);
+
+    }
+
+    100% {
+        transform: rotateX(0deg);
+
+    }
+}
